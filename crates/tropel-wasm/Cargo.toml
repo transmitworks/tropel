@@ -35,7 +35,7 @@ tokio.workspace = true
 #     defeats the boundary the WASM tier exists to provide.
 #   RUSTSEC-2026-0268 (CVSS 6.9) — guest-controlled host heap allocation
 #     via WASIp3 streams.
-wasmtime = { version = "47.0.4", default-features = false, features = [
+wasmtime = { version = "48.0.7", default-features = false, features = [
     "anyhow",
     "cranelift",
     "wat",
